@@ -1,0 +1,16 @@
+.content {
+    display: none; /* Initially hide all paragraphs */
+    margin: 0 0 20px 20px; /* Optional: Add margin for better visual */
+}
+
+.collapsible {
+    cursor: pointer; /* Show pointer on hover */
+    margin-bottom: 5px;
+    background-color: #f1f1f1; /* Optional: Background color */
+    padding: 10px; /* Optional: Padding */
+    border: 1px solid #ccc; /* Optional: Border */
+}
+
+.collapsible.active {
+    background-color: #ccc; /* Optional: Active background color */
+}
